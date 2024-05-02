@@ -1,7 +1,11 @@
 {
+  "name": "TF14-GPU-Jupyter",
     "image": "tensorflow/tensorflow:2.14.0-gpu-jupyter",
-  
+    
     "customizations": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python"
+      },
       "vscode": {
         "extensions": ["ms-python.python",
                        "ms-toolsai.jupyter"
