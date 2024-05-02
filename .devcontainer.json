@@ -1,0 +1,13 @@
+{
+    "image": "tensorflow/tensorflow:2.14.0-gpu-jupyter",
+  
+    "customizations": {
+      "vscode": {
+        "extensions": ["ms-python.python",
+                       "ms-toolsai.jupyter"
+                    ]
+      }
+    },
+    "forwardPorts": [3000],
+    "runArgs": ["--gpus", "all"]
+  }
